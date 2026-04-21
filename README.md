@@ -2,6 +2,12 @@
 
 Java projects from **Big Data Analytics Programming** (KU Leuven MAI): processing taxi GPS track data at scale.
 
+> **Status:** Personal / university coursework archive — **not actively maintained**. Hadoop / Spark versions in the POMs reflect the course era.
+
+## How to run
+
+Use **Java 8** and **Maven**. Build and run **MapReduce** from the repository root (see [README-ride-revenue.md](README-ride-revenue.md)). For **Spark**, `cd trip-length/` and use that module’s `pom.xml` and instructions. Each sub-project is independent.
+
 ## Layout
 
 | Path | Stack | Description |
